@@ -44,3 +44,6 @@ The stability was verified using the "Butterfly Curve" method (DC Analysis).
 
 ## 🚀 Why 8T over 6T?
 In a standard 6T cell, the storage nodes are directly exposed to the bit-lines during a read, which can accidentally flip the stored bit. This 8T design uses a **Read Buffer**, meaning the data is never "stressed" during a read operation. This makes it a superior choice for high-reliability caches and Compute-In-Memory (CIM) applications.
+
+## Simulation Software
+Cadence Virtuoso 90nm PDK
