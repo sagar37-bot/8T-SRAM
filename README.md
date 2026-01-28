@@ -17,10 +17,10 @@ The 8T cell is divided into three functional blocks:
 ### Transistor Sizing Strategy
 | Transistor Block | Device | W/L Ratio (nm/nm) | Rationale |
 | :--- | :--- | :--- | :--- |
-| **Pull-Up PMOS** | PM0, PM1 | 180 / 180 | Minimum sized for area; ensures logic '1' restoration. |
-| **Pull-Down NMOS** | NM1, NM3 | 260 / 180 | Upsized for strong '0' discharge and improved $\beta$-ratio (~1.45). |
-| **Write Access** | NM0, NM2 | 200 / 180 | Optimized for write-ability without compromising hold stability. |
-| **Read Port** | NM4, NM5 | 200 / 180 | Sized to provide sufficient read current while limiting leakage. |
+| **Pull-Up PMOS** | PM0, PM1 | 400 / 100 | Minimum sized for area; ensures logic '1' restoration. |
+| **Pull-Down NMOS** | NM1, NM3 | 200 / 100 | Upsized for strong '0' discharge and improved $\beta$-ratio (~1.45). |
+| **Write Access** | NM0, NM2 | 250 / 100 | Optimized for write-ability without compromising hold stability. |
+| **Read Port** | NM4, NM5 | 200 / 100 | Sized to provide sufficient read current while limiting leakage. |
 
 ## 📊 Performance & Stability Metrics
 Simulations were conducted at a nominal **VDD of 1.2V**.
