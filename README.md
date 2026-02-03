@@ -47,3 +47,7 @@ In a standard 6T cell, the storage nodes are directly exposed to the bit-lines d
 
 ## Simulation Software
 Cadence Virtuoso 90nm PDK
+
+## Future Updates
+Array Implementation
+CIM(Compute In Memory) Implementation
